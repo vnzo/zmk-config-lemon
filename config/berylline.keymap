@@ -75,7 +75,7 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp NUMBER_7  &kp N8  &kp N9  &kp N0  &kp DEL  &trans  &kp UP_ARROW  &kp MINUS  &kp EQUAL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_NXT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &trans  &trans  &kp K_STOP  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp NUMBER_7  &kp N8  &kp N9  &kp N0  &kp DEL  &trans  &kp UP_ARROW  &kp MINUS  &kp EQUAL  &mt RS(MINUS) MINUS  &mt RS(EQUAL) EQUAL  &mt RS(SEMICOLON) SEMICOLON  &mt RS(SQT) SQT  &mt RS(SLASH) SLASH  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_DISC 0  &mt RS(COMMA) COMMA  &mt RS(DOT) DOT  &trans  &trans  &kp K_STOP  &trans
             >;
         };
 
