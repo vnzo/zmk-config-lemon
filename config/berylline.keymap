@@ -54,20 +54,8 @@
                 20  21  22             23  24  25
                         26  27     28  29              */
         /* Letters */
-
-        escape {
-            key-positions = <1 0>;
-            bindings = <&kp ESCAPE>;
-            layers = <DEF_L>;
-        };
-
         /* Brackets */
         /* Convenience */
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <10 11>;
-        };
 
         revoke {
             bindings = <&mt K_CANCEL Z>;
@@ -80,14 +68,14 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp Z  &mt K_CUT X  &mt K_COPY C  &mt K_PASTE V  &kp B  &kp N  &kp M  &mt LEFT_SHIFT LCTRL  &lt 1 SPACE  &lt 2 SPACE  &kp BACKSPACE
+&mt ESCAPE Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt TAB A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp Z  &mt K_CUT X  &mt K_COPY C  &mt K_PASTE V  &kp B  &kp N  &kp M  &mt LEFT_SHIFT LCTRL  &lt 1 SPACE  &lt 2 SPACE  &kp BACKSPACE
             >;
         };
 
         nav_layer {
             label = "Nav";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp NUMBER_7  &kp N8  &kp N9  &kp N0  &kp DEL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 2  &kp UNDO  &kp PG_DN  &kp LARW  &kp ENTER  &kp RARW  &kp END  &kp CUT  &kp COPY  &kp PASTE  &kp BSPC  &kp DARW  &kp DEL  &trans  &trans  &trans  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp NUMBER_7  &kp N8  &kp N9  &kp N0  &kp DEL  &trans  &kp UP_ARROW  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_NXT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &trans  &trans  &kp K_STOP  &trans
             >;
         };
 
