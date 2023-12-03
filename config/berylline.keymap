@@ -54,78 +54,18 @@
                         26  27     28  29              */
         /* Letters */
 
-        v {
-            key-positions = <1 2>;
-            bindings = <&kp V>;
-            layers = <DEF_L>;
-        };
-
-        q {
-            key-positions = <2 3>;
-            bindings = <&kp Q>;
-            layers = <DEF_L>;
-        };
-
-        z {
-            key-positions = <20 21>;
-            bindings = <&kp Z>;
+        escape {
+            key-positions = <1 0>;
+            bindings = <&kp ESCAPE>;
             layers = <DEF_L>;
         };
 
         /* Brackets */
-
-        lbkt {
-            key-positions = <1 11>;
-            bindings = <&kp LBKT>;
-            layers = <DEF_L SYM_L NUM_L>;
-        };
-
-        rbkt {
-            key-positions = <8 18>;
-            bindings = <&kp RBKT>;
-            layers = <DEF_L SYM_L NUM_L>;
-        };
-
-        lpar {
-            key-positions = <2 12>;
-            bindings = <&kp LPAR>;
-            layers = <DEF_L SYM_L NUM_L>;
-        };
-
-        rpar {
-            key-positions = <7 17>;
-            bindings = <&kp RPAR>;
-            layers = <DEF_L SYM_L NUM_L>;
-        };
-
-        lbrc {
-            key-positions = <3 13>;
-            bindings = <&kp LBRC>;
-            layers = <DEF_L SYM_L NUM_L>;
-        };
-
-        rbrc {
-            key-positions = <6 16>;
-            bindings = <&kp RBRC>;
-            layers = <DEF_L SYM_L NUM_L>;
-        };
-
         /* Convenience */
 
-        esc {
-            key-positions = <3 4>;
-            bindings = <&kp ESC>;
-        };
-
-        del {
-            key-positions = <13 14>;
-            bindings = <&kp DEL>;
-        };
-
-        slall {
-            key-positions = <20 21>;
-            bindings = <&kp SLALL>;
-            layers = <NAV_L>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
         };
     };
 
@@ -134,7 +74,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &mt LEFT_SHIFT LCTRL  &lt 1 SPACE  &lt 2 SPACE  &sl SYM_L
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &mt LEFT_SHIFT LCTRL  &lt 1 SPACE  &lt 2 SPACE  &kp BACKSPACE
             >;
         };
 
