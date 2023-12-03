@@ -67,6 +67,11 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        revoke {
+            bindings = <&kp K_CANCEL>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
