@@ -39,8 +39,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <NAV_L SYM_L>;
-            then-layer = <NUM_L>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 
@@ -87,7 +87,7 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&kp F1  &kp F2  &kp F5  &kp F11  &kp F12  &kp CARET  &kp AMPS  &kp SEMI  &kp COLON  &kp QMARK  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &kp RIGHT_ALT  &trans  &kp C_VOLUME_UP  &trans  &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_SEL 2  &kp K_PREVIOUS  &kp C_VOL_DN  &kp K_NEXT  &trans  &lt 3 SPACE  &trans  &trans
+&kp F1  &kp F2  &kp F5  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &kp RIGHT_ALT  &trans  &kp C_VOLUME_UP  &trans  &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_SEL 2  &kp K_PREVIOUS  &kp C_VOL_DN  &kp K_NEXT  &trans  &lt 3 SPACE  &trans  &trans
             >;
         };
 
