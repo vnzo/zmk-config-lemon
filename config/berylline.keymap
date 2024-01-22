@@ -87,7 +87,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DTAN";
             #binding-cells = <0>;
-            bindings = <&mt TAB A>, <&an>;
+            bindings = <&kp A>, <&an>;
         };
     };
 
