@@ -69,113 +69,117 @@
                         26  27     28  29              */
         /* Letters */
 
-        v {
+        q {
             key-positions = <0 1>;
             bindings = <&kp Q>;
             layers = <DEF>;
         };
 
-        t {
+        qmark {
             key-positions = <3 4>;
-            bindings = <&kp QMARK>;
+            bindings = <&kp QUESTION>;
             layers = <DEF>;
         };
 
-        q {
+        lshitf {
             key-positions = <10 11>;
-            bindings = <&kp Q>;
+            bindings = <&kp LEFT_SHIFT>;
             layers = <DEF>;
         };
 
-        q {
+        qmark2 {
             key-positions = <20 21>;
-            bindings = <&kp ?>;
+            bindings = <&kp QUESTION>;
             layers = <DEF>;
         };
 
-        q {
+        del {
             key-positions = <21 22>;
             bindings = <&kp DEL>;
             layers = <DEF>;
         };
 
-        q {
-            key-positions = <3 4>;
-            bindings = <&kp Q>;
-            layers = <DEF>;
-        };
-
-        q {
-            key-positions = <3 4>;
-            bindings = <&kp Q>;
-            layers = <DEF>;
-        };
-
-        z {
-            key-positions = <20 21>;
-            bindings = <&kp Z>;
-            layers = <DEF>;
-        };
-
         /* Brackets */
-
-        lbkt {
-            key-positions = <1 11>;
-            bindings = <&kp LBKT>;
-            layers = <DEF SYM NUM>;
-        };
-
-        rbkt {
-            key-positions = <8 18>;
-            bindings = <&kp RBKT>;
-            layers = <DEF SYM NUM>;
-        };
-
-        lpar {
-            key-positions = <2 12>;
-            bindings = <&kp LPAR>;
-            layers = <DEF SYM NUM>;
-        };
-
-        rpar {
-            key-positions = <7 17>;
-            bindings = <&kp RPAR>;
-            layers = <DEF SYM NUM>;
-        };
-
-        lbrc {
-            key-positions = <3 13>;
-            bindings = <&kp LBRC>;
-            layers = <DEF SYM NUM>;
-        };
-
-        rbrc {
-            key-positions = <6 16>;
-            bindings = <&kp RBRC>;
-            layers = <DEF SYM NUM>;
-        };
-
         /* Convenience */
 
-        del {
-            key-positions = <20 21>;
-            bindings = <&kp DEL>;
-        };
-
         esc {
-            key-positions = <7 8>;
-            bindings = <&kp ESC>;
-        };
-
-        del {
             key-positions = <1 2>;
             bindings = <&kp TAB>;
         };
 
-        all {
-            key-positions = <20 21>;
-            bindings = <&kp ALL>;
-            layers = <NAV>;
+        tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <7 8>;
+        };
+
+        rshift {
+            bindings = <&kp LS(RIGHT_SHIFT)>;
+            key-positions = <19 18>;
+        };
+
+        rshift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <23 24>;
+        };
+
+        l-ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <2 12>;
+        };
+
+        r-ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <7 17>;
+        };
+
+        lbraket {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <1 11>;
+        };
+
+        rparen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 8>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 10>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <9 19>;
+        };
+
+        pgup {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <3 13>;
+        };
+
+        pgdn {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <22 13>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <4 14>;
+        };
+
+        esc {
+            bindings = <&kp HOME>;
+            key-positions = <15 5>;
+        };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <6 16>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <16 23>;
         };
     };
 
