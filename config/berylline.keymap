@@ -117,7 +117,7 @@
             key-positions = <19 18>;
         };
 
-        rshift {
+        rshift-rime {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <23 24>;
         };
@@ -142,13 +142,13 @@
             key-positions = <18 8>;
         };
 
-        esc {
+        esc2 {
             bindings = <&kp ESCAPE>;
             key-positions = <0 10>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
+        my-pc {
+            bindings = <&kp C_AL_MY_COMPUTER>;
             key-positions = <9 19>;
         };
 
@@ -162,13 +162,13 @@
             key-positions = <22 13>;
         };
 
-        del {
+        del2 {
             bindings = <&kp DELETE>;
             key-positions = <4 14>;
         };
 
-        esc {
-            bindings = <&kp HOME>;
+        play {
+            bindings = <&kp LS(C_PLAY_PAUSE)>;
             key-positions = <15 5>;
         };
 
