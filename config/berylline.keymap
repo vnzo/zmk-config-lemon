@@ -8,8 +8,8 @@
 #define NAV 2
 #define PUN 3
 #define MOU 4
-#define TES 5
-#define TES 6
+#define BLE 5
+#define MED 6
 
 /* Shortcuts */
 
