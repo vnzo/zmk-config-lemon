@@ -86,7 +86,6 @@
 &lt 5 Y  &kp H  &kp O  &mt LEFT_WIN U  &kp PERIOD  &kp D  &kp C  &kp R  &kp F  &lt 6 B  &kp J  &kp I  &kp E  &mt LEFT_SHIFT A  &kp SQT  &kp W  &kp T  &kp S  &kp N  &kp V  &mt LCTRL X  &kp COMMA  &kp K  &kp M  &kp L  &kp P  &lt 1 BACKSPACE  &lt 2 ENTER  &lt 3 SPACE  &lt 4 DELETE
             >;
         };
-        };
         nav_layer {
             bindings = <
                 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5      &kp TOP   &kp ESC   &kp UARW  &kp TAB   &home
