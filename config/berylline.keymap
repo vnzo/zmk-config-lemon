@@ -3,9 +3,12 @@
 
 /* Layers */
 #define DEF 0
-#define NAV 1
-#define SYM 2
-#define NUM 3
+#define EDT 1
+#define NAV 2
+#define PUN 3
+#define MOU 4
+#define TES 5
+#define TES 6
 
 /* Shortcuts */
 #define CUT LC(X)
