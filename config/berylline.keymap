@@ -185,6 +185,12 @@
             bindings = <&kp END>;
             key-positions = <16 23>;
         };
+
+        ble-clr-all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <5 15>;
+            layers = <5>;
+        };
     };
 
     keymap {
