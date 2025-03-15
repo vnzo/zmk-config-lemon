@@ -47,15 +47,16 @@
             mods = <(MOD_LCTL|MOD_RCTL)>;
         };
 
-        test_tap_preferred: test_tap_preferred {
+        HRM: HRM {
             compatible = "zmk,behavior-hold-tap";
-            label = "TEST_TAP_PREFERRED";
+            label = "HRM";
             bindings = <&mt>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <125>;
             flavor = "tap-preferred";
+            hold-trigger-on-release;
         };
     };
 
@@ -234,7 +235,7 @@
 
         let_layer_0 {
             bindings = <
-&lt 5 Y  &kp H  &kp O  &mt LEFT_WIN U  &lt 6 PERIOD  &kp D  &kp C  &kp R  &kp F  &lt 6 B  &kp J  &kp I  &kp E  &mt LEFT_SHIFT A  &kp SQT  &kp W  &kp T  &kp S  &kp N  &kp V  &mt LCTRL X  &kp COMMA  &kp K  &kp M  &kp L  &kp P  &lt 1 BACKSPACE  &lt 2 ENTER  &lt 3 SPACE  &lt 4 DELETE
+&lt 5 Y  &kp H  &kp O  &HRM LEFT_WIN U  &lt 6 PERIOD  &kp D  &HRM RIGHT_WIN C  &kp R  &kp F  &lt 6 B  &kp J  &kp I  &kp E  &HRM LEFT_SHIFT A  &kp SQT  &kp W  &HRM RIGHT_SHIFT T  &kp S  &kp N  &kp V  &HRM LCTRL X  &kp COMMA  &kp K  &kp M  &kp L  &HRM RCTRL P  &lt 1 BACKSPACE  &lt 2 ENTER  &lt 3 SPACE  &lt 4 DELETE
             >;
         };
 
